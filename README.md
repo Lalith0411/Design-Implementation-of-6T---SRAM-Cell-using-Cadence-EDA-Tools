@@ -88,6 +88,14 @@ For DC Analysis Settings and Output
 In the simulation setup, choose DC analysis.
 Specify the time range for the analysis (start and stop time).
 Run the simulation and observe the output waveforms
+![Screenshot 2024-11-12 125407](https://github.com/user-attachments/assets/6f40120b-0f1a-4a10-94c7-da146d9c14ba)
+![Screenshot 2024-11-12 125526](https://github.com/user-attachments/assets/2d8c322a-9edc-4c12-a89f-d48ceb92bf2c)
+![Screenshot 2024-11-12 125609](https://github.com/user-attachments/assets/1e408aa2-2ad8-4b94-b3a8-1da9b410ff5b)
+![Screenshot 2024-11-12 125544](https://github.com/user-attachments/assets/e15ce21e-8d14-4e2f-a1aa-6ac4d1ffc3a8)
+![378054447-2fe7ad15-e5f5-45a3-9e99-a410875c4d7f](https://github.com/user-attachments/assets/e4ce0979-6edd-435b-849d-4e6a3393a4fa)
+
+
+
 
 
 Results:
