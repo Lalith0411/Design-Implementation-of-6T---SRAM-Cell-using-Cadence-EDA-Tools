@@ -57,17 +57,18 @@ ii)	Create Schematic Cell view.
  
  iii)	Creating the Symbol for schematic Cell view
 
-•	In the schematic window, execute 
+- In the schematic window, execute 
   +	Create – Cell view – From Cell view
   +	The cell view from cell view window appears
   +	Check Lib Name, Cell Name, From View name must be schematic Press ok
-•	Now Symbol generation form appears. Click Ok If No changes required
-•	A new window with with default symbol is created.
-•	Edit the symbol if you want to give actual symbol shape else continue.
-•	Execute Create-Cell view-from cell view
-•	Library Name and Cell Name must be same which you have used for schematic. Press OK
-•	Check for the position of pin side.Prss OK
-•	Edit for the shape by Create-Shape-Choose required options to edit.
+    
+- Now Symbol generation form appears. Click Ok If No changes required
+- A new window with with default symbol is created.
+- Edit the symbol if you want to give actual symbol shape else continue.
+- Execute Create-Cell view-from cell view
+- Library Name and Cell Name must be same which you have used for schematic. Press OK
+- Check for the position of pin side.Prss OK
+- Edit for the shape by Create-Shape-Choose required options to edit.
 
  
  iv)	Creating the new test cell view
