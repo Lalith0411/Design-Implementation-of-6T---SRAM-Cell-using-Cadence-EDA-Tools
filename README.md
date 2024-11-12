@@ -6,6 +6,7 @@ To design and implement a 6T SRAM (Static Random-Access Memory) cell using Caden
 ### Tools Required:
 - Personal Computer
 - Cadence Virtuoso Software
+    
 ### SCHEMATIC SIMULATION:
 PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION
 Commands to get into Cadence:
@@ -19,22 +20,23 @@ Commands to get into Cadence:
   
   1.	Now two windows must open
       i) virtuoso/command interpreter window
-    	 ii)”Whats New…”
+    	ii)”Whats New…”
   2.	Close the 2nd window
   3.	Use 1st window i.e virtuoso window (CIW) for further processing.
-  i.	Create a New Library
-  ii.	Create Schematic Cell view.
-  iii.	Create the Symbol for schematic Cell view.
-  iv.	Create the test Cell view.
-  v.	Analog simulation by spectre
+      i.	Create a New Library
+      ii.	Create Schematic Cell view.
+      iii.	Create the Symbol for schematic Cell view.
+      iv.	Create the test Cell view.
+      v.	Analog simulation by spectre
 
 ### Steps for Schematic Simulation using Cadence:
- i)	Procedure for Creating New Library.
-•	File –New – Library
-•	Name: Give name for ur library Ex: VLSILAB_EXP_1
-•	Enable Attach to an existing technology library, Click OK
-•	Attach the library to the technology library gpdk045.Click OK
- ii)	Create Schematic Cell view.
+i)	Procedure for Creating New Library.
+- File –New – Library
+- Name: Give name for ur library Ex: VLSILAB_EXP_1
+- Enable Attach to an existing technology library, Click OK
+- Attach the library to the technology library gpdk045.Click OK.
+  
+ii)	Create Schematic Cell view.
 •	Go to 1st window i.e virtuoso (CIW)
 •	File-New-Cell view
 •	Setup the new file form
