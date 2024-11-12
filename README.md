@@ -24,11 +24,11 @@ ii)”Whats New…”
   2.	Close the 2nd window
   3.	Use 1st window i.e virtuoso window (CIW) for further processing.
      
-i.	Create a New Library
-ii.	Create Schematic Cell view.
-iii.	Create the Symbol for schematic Cell view.
-iv.	Create the test Cell view.
-v.	Analog simulation by spectre
+- Create a New Library
+- Create Schematic Cell view.
+- Create the Symbol for schematic Cell view.
+- Create the test Cell view.
+- Analog simulation by spectre
 
 ### Steps for Schematic Simulation using Cadence:
 i)	Procedure for Creating New Library.
