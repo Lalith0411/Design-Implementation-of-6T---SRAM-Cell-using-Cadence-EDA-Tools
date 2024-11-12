@@ -1,12 +1,12 @@
-# Design-Implementation-of-6T---SRAM-Cell-using-Cadence-EDA-Tools 
+## EXP04-Design-Implementation-of-6T---SRAM-Cell-using-Cadence-EDA-Tools 
 
-## Aim:
+### Aim:
 To design and implement a 6T SRAM (Static Random-Access Memory) cell using Cadence EDA tools, simulate its functionality, and analyze key performance parameters such as read/write operations, power consumption, and stability to understand its behavior in memory design.
 
-## Tools Required:
+### Tools Required:
 - Personal Computer
 - Cadence Virtuoso Software
-## SCHEMATIC SIMULATION:
+### SCHEMATIC SIMULATION:
 PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION
 Commands to get into Cadence:
 
@@ -15,7 +15,7 @@ Commands to get into Cadence:
   - csh
   - source /cadence/install/cshrc
   - virtuoso
-### Procedure for Schematic simulation using Cadence
+#### Procedure for Schematic simulation using Cadence
   
   1.	Now two windows must open
       i) virtuoso/command interpreter window
@@ -28,13 +28,13 @@ Commands to get into Cadence:
   iv.	Create the test Cell view.
   v.	Analog simulation by spectre
 
-## Steps for Schematic Simulation using Cadence:
-### i)	Procedure for Creating New Library.
+### Steps for Schematic Simulation using Cadence:
+ i)	Procedure for Creating New Library.
 •	File –New – Library
 •	Name: Give name for ur library Ex: VLSILAB_EXP_1
 •	Enable Attach to an existing technology library, Click OK
 •	Attach the library to the technology library gpdk045.Click OK
-### ii)	Create Schematic Cell view.
+ ii)	Create Schematic Cell view.
 •	Go to 1st window i.e virtuoso (CIW)
 •	File-New-Cell view
 •	Setup the new file form
@@ -52,7 +52,7 @@ Commands to get into Cadence:
 
 ![WhatsApp Image 2024-10-19 at 10 41 42_985ec768](https://github.com/user-attachments/assets/b62f5f33-a6bc-4f59-8ad6-89c950149c5b)
  
-### iii)	Creating the Symbol for schematic Cell view
+ iii)	Creating the Symbol for schematic Cell view
 
 •	In the schematic window, execute 
   +	Create – Cell view – From Cell view
@@ -67,7 +67,7 @@ Commands to get into Cadence:
 •	Edit for the shape by Create-Shape-Choose required options to edit.
 
  
-### iv)	Creating the new test cell view
+ iv)	Creating the new test cell view
 
 •	Go to CIW window, Execute File-New-Cell view
   +	Setup the new file form
@@ -79,7 +79,7 @@ Commands to get into Cadence:
 
  ![WhatsApp Image 2024-10-19 at 10 41 43_ded08126](https://github.com/user-attachments/assets/77a7caea-2d31-4a7a-8878-92c23fdb5fa3)
 
-## Analog simulation by SPECTRE.
+### Analog simulation by SPECTRE.
 •	In test cell view window
 •	Launch – ADE L(Analog Design Environment)
    +	Execute Setup—Simulation/directory/Host A new window opens
@@ -92,7 +92,7 @@ Commands to get into Cadence:
 
 ![WhatsApp Image 2024-10-19 at 10 41 45_fd7c345d](https://github.com/user-attachments/assets/046b9c2b-e174-411d-9c56-b434934fa7f2)
 
-## For DC Analysis Settings and Output
+### For DC Analysis Settings and Output
   - In the simulation setup, choose DC analysis.
   - Specify the time range for the analysis (start and stop time).
   - Run the simulation and observe the output waveforms
@@ -107,7 +107,7 @@ Commands to get into Cadence:
 ![WhatsApp Image 2024-10-19 at 10 41 44_20749e21](https://github.com/user-attachments/assets/2fe7ad15-e5f5-45a3-9e99-a410875c4d7f)
 
 
-## Results:
+### Results:
 The design and implementation of the 6T SRAM cell using Cadence EDA tools were successfully achieved. Simulation results validated the correct functionality and performance of the SRAM cell, including stable read/write operations,
 
 
