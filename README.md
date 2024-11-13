@@ -19,8 +19,10 @@ Commands to get into Cadence:
 #### Procedure for Schematic simulation using Cadence
   
   1.	Now two windows must open
+
         i) virtuoso/command interpreter window
         ii)”Whats New…”
+    	
   2.	Close the 2nd window
   3.	Use 1st window i.e virtuoso window (CIW) for further processing.
      
@@ -31,6 +33,7 @@ Commands to get into Cadence:
 - Analog simulation by spectre
 
 ### Steps for Schematic Simulation using Cadence:
+
 i)	Procedure for Creating New Library.
 - File –New – Library
 - Name: Give name for ur library Ex: VLSILAB_EXP_1
