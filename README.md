@@ -23,9 +23,8 @@ Commands to get into Cadence:
 
 1.	Right Click and open the terminal window
 2.	Type the following commands as follows and press enter.
-  - csh
-  - source /cadence/install/cshrc
-  - virtuoso
+  • csh&emsp;• source /cadence/install/cshrc&emsp;• virtuoso
+
 #### Procedure for Schematic simulation using Cadence
   
   1.	Now two windows must open
