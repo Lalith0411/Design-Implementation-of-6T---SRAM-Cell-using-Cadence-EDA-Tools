@@ -9,7 +9,13 @@ To design and implement a 6T SRAM (Static Random-Access Memory) cell using Caden
   
 ### Circuit Diagram:
 
+<br>
+
 ![WhatsApp Image 2024-11-13 at 16 25 39_50eac1b6](https://github.com/user-attachments/assets/fc3c69d4-a30d-42aa-8785-5b2c1680b2d9)
+
+<br>
+<br>
+<br>
 
 ### SCHEMATIC SIMULATION:
 PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION
