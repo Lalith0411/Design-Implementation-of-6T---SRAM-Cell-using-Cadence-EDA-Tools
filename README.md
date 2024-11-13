@@ -46,6 +46,8 @@ ii)	Create Schematic Cell view.
       +	Library: Select the one you created.
       +	Cell: Give the experiment name Ex: Inverter ViewSchematic
       +	Type: Schematic press OK
+
+        
 -	Add the required components from the libraries and make the connections.
       +	Go to instance fixed menu or use shortcut key “I” from keypad to go instances
       +	Click on browse. This opens the library browser
