@@ -19,7 +19,6 @@ Commands to get into Cadence:
 #### Procedure for Schematic simulation using Cadence
   
   1.	Now two windows must open
-
         i) virtuoso/command interpreter window
         ii)”Whats New…”
     	
