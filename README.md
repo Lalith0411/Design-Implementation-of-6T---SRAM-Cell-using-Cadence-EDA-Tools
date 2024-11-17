@@ -1,102 +1,122 @@
-Aim:
+![Screenshot 2024-11-12 125544](https://github.com/user-attachments/assets/587b64cb-90df-48e3-9f0f-c19b477ed617)## Ex No: 04-Design-Implementation-of-6T---SRAM-Cell-using-Cadence-EDA-Tools 
+
+### Aim:
 To design and implement a 6T SRAM (Static Random-Access Memory) cell using Cadence EDA tools, simulate its functionality, and analyze key performance parameters such as read/write operations, power consumption, and stability to understand its behavior in memory design.
 
-Tools Required:
-Personal Computer
-Cadence Virtuoso Software
-SCHEMATIC SIMULATION:
-PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION Commands to get into Cadence:
+### Tools Required:
+- Personal Computer
+- Cadence Virtuoso Software
+  
+### Circuit Diagram:
 
-Right Click and open the terminal window
-Type the following commands as follows and press enter.
-csh
-source /cadence/install/cshrc
-virtuoso
-Procedure for Schematic simulation using Cadence
-Now two windows must open i) virtuoso/command interpreter window ii)”Whats New…”
-Close the 2nd window
-Use 1st window i.e virtuoso window (CIW) for further processing.
-Create a New Library
-Create Schematic Cell view.
-Create the Symbol for schematic Cell view.
-Create the test Cell view.
-Analog simulation by spectre
-Steps for Schematic Simulation using Cadence:
-i) Procedure for Creating New Library.
+![WhatsApp Image 2024-11-13 at 16 25 39_50eac1b6](https://github.com/user-attachments/assets/fc3c69d4-a30d-42aa-8785-5b2c1680b2d9)
 
-File –New – Library
-Name: Give name for ur library Ex: VLSILAB_EXP_1
-Enable Attach to an existing technology library, Click OK
-Attach the library to the technology library gpdk045.Click OK.
-ii) Create Schematic Cell view. • Go to 1st window i.e virtuoso (CIW) • File-New-Cell view • Setup the new file form
+### SCHEMATIC SIMULATION:
+PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION
+Commands to get into Cadence:
 
-Library: Select the one you created.
-Cell: Give the experiment name Ex: Inverter ViewSchematic
-Type: Schematic press OK • Add the required components from the libraries and make the connections.
-Go to instance fixed menu or use shortcut key “I” from keypad to go instances
-Click on browse. This opens the library browser
-Now select the appropriate library for components like
-Gpdk45 ------------------------nmos1v, pmos1v
-Create Input and Output pins
-Make the connections by using fixed narrow wire key
-Click Check and Save button
-WhatsApp Image 2024-10-19 at 10 41 42_985ec768
+1.	Right Click and open the terminal window
+2.	Type the following commands as follows and press enter.
+  • csh&emsp;• source /cadence/install/cshrc&emsp;• virtuoso
 
-iii) Creating the Symbol for schematic Cell view
+#### Procedure for Schematic simulation using Cadence
+  
+  1.	Now two windows must open
+        i) virtuoso/command interpreter window
+        ii)”Whats New…”
+    	
+  2.	Close the 2nd window
+  3.	Use 1st window i.e virtuoso window (CIW) for further processing.
+     
+- Create a New Library
+- Create Schematic Cell view.
+- Create the Symbol for schematic Cell view.
+- Create the test Cell view.
+- Analog simulation by spectre
 
-In the schematic window, execute
+### Steps for Schematic Simulation using Cadence:
 
-Create – Cell view – From Cell view
-The cell view from cell view window appears
-Check Lib Name, Cell Name, From View name must be schematic Press ok
-Now Symbol generation form appears. Click Ok If No changes required
+i)	Procedure for Creating New Library.
+- File –New – Library
+- Name: Give name for ur library Ex: VLSILAB_EXP_1
+- Enable Attach to an existing technology library, Click OK
+- Attach the library to the technology library gpdk045.Click OK.
+  
+ii)	Create Schematic Cell view.
+-	Go to 1st window i.e virtuoso (CIW)
+-	File-New-Cell view
+-	Setup the new file form
+      +	Library: Select the one you created.
+      +	Cell: Give the experiment name Ex: Inverter ViewSchematic
+      +	Type: Schematic press OK
 
-A new window with with default symbol is created.
+        
+-	Add the required components from the libraries and make the connections.
+      +	Go to instance fixed menu or use shortcut key “I” from keypad to go instances
+      +	Click on browse. This opens the library browser
+      +	Now select the appropriate library for components like 
+      +	Gpdk45 ------------------------nmos1v, pmos1v
+      +	Create Input and Output pins
+      +	Make the connections by using fixed narrow wire key
+      +	Click Check and Save button
+![Screenshot 2024-11-12 125407](https://github.com/user-attachments/assets/e172b408-b5aa-44cb-a4f5-27fd398097f5)
 
-Edit the symbol if you want to give actual symbol shape else continue.
+ 
+ iii)	Creating the Symbol for schematic Cell view
 
-Execute Create-Cell view-from cell view
+-    In the schematic window, execute 
+      +	Create – Cell view – From Cell view
+      +	The cell view from cell view window appears
+      +	Check Lib Name, Cell Name, From View name must be schematic Press ok        
+- Now Symbol generation form appears. Click Ok If No changes required
+- A new window with with default symbol is created.
+- Edit the symbol if you want to give actual symbol shape else continue.
+- Execute Create-Cell view-from cell view
+- Library Name and Cell Name must be same which you have used for schematic. Press OK
+- Check for the position of pin side.Prss OK
+- Edit for the shape by Create-Shape-Choose required options to edit.
 
-Library Name and Cell Name must be same which you have used for schematic. Press OK
+ 
+ iv)	Creating the new test cell view
+- Go to CIW window, Execute File-New-Cell view
+  
+   +	Setup the new file form
+   +	Library: Select the one you created.
+   +	Cell: Cell name must be different from the name used in schematic cell view. Ex: Inverter_test
+   +	View: Schematic
+   +	Type: Schematic press OK
+   +	Follow the step 3(ii) d to make the required connections
 
-Check for the position of pin side.Prss OK
+ ![WhatsApp Image 2024-10-19 at 10 41 43_ded08126](https://github.com/user-attachments/assets/77a7caea-2d31-4a7a-8878-92c23fdb5fa3)
 
-Edit for the shape by Create-Shape-Choose required options to edit.
+### Analog simulation by SPECTRE.
+- In test cell view window
+- Launch – ADE L(Analog Design Environment)
+  + Execute Setup—Simulation/directory/Host A new window opens
+  + Set the simulation window to spectre and click ok
+  + Execute Analysis – Choose. A window opens.
+  + Select the type and set the specifications and press OK
+  + Execute Output s—to be plotted – Select on Schematic
+  + Then Select the INPUT WIRE(Vin ) and OUTPUT WIRE(Vout) from your test Schematic using mouse
+-	Execute Simulation -- Net list and Run
 
-iv) Creating the new test cell view
+![Screenshot 2024-11-17 225149](https://github.com/user-attachments/assets/c5b9a130-e134-419e-a71f-63b5b34ddf58)
 
-• Go to CIW window, Execute File-New-Cell view
+### For DC Analysis Settings and Output
+  - In the simulation setup, choose DC analysis.
+  - Specify the time range for the analysis (start and stop time).
+  - Run the simulation and observe the output waveforms
+    
+![Screenshot 2024-11-12 125526](https://github.com/user-attachments/assets/c39c19ab-9e01-4cce-9e4f-57fe9f174eed)
 
-Setup the new file form
-Library: Select the one you created.
-Cell: Cell name must be different from the name used in schematic cell view. Ex: Inverter_test
-View: Schematic
-Type: Schematic press OK • Follow the step 3(ii) d to make the required connections
-
-
-Analog simulation by SPECTRE.
-• In test cell view window • Launch – ADE L(Analog Design Environment)
-
-Execute Setup—Simulation/directory/Host A new window opens
-Set the simulation window to spectre and click ok
-Execute Analysis – Choose. A window opens.
-Select the type and set the specifications and press OK
-Execute Output s—to be plotted – Select on Schematic
-Then Select the INPUT WIRE(Vin ) and OUTPUT WIRE(Vout) from your test Schematic using mouse • Execute Simulation -- Net list and Run
-
-For DC Analysis Settings and Output
-In the simulation setup, choose DC analysis.
-Specify the time range for the analysis (start and stop time).
-Run the simulation and observe the output waveforms
-![Screenshot 2024-11-12 125407](https://github.com/user-attachments/assets/6f40120b-0f1a-4a10-94c7-da146d9c14ba)
-![Screenshot 2024-11-12 125526](https://github.com/user-attachments/assets/2d8c322a-9edc-4c12-a89f-d48ceb92bf2c)
-![Screenshot 2024-11-12 125609](https://github.com/user-attachments/assets/1e408aa2-2ad8-4b94-b3a8-1da9b410ff5b)
-![Screenshot 2024-11-12 125544](https://github.com/user-attachments/assets/e15ce21e-8d14-4e2f-a1aa-6ac4d1ffc3a8)
-![378054447-2fe7ad15-e5f5-45a3-9e99-a410875c4d7f](https://github.com/user-attachments/assets/e4ce0979-6edd-435b-849d-4e6a3393a4fa)
-
-
+![Screenshot 2024-11-12 125609](https://github.com/user-attachments/assets/9fb20c5a-238b-485b-9683-fcef4c284f8a)
+![Screenshot 2024-11-12 125544](https://github.com/user-attachments/assets/55aef242-18ca-4fd2-86cb-7dde4fb8d07f)
+![Uploading Screenshot 2024-11-17 225344.png…]()
 
 
 
-Results:
+
+### Results:
 The design and implementation of the 6T SRAM cell using Cadence EDA tools were successfully achieved. Simulation results validated the correct functionality and performance of the SRAM cell, including stable read/write operations,
+
+
