@@ -1,4 +1,4 @@
-![Screenshot 2024-11-12 125544](https://github.com/user-attachments/assets/587b64cb-90df-48e3-9f0f-c19b477ed617)## Ex No: 04-Design-Implementation-of-6T---SRAM-Cell-using-Cadence-EDA-Tools 
+## Ex No: 04-Design-Implementation-of-6T---SRAM-Cell-using-Cadence-EDA-Tools 
 
 ### Aim:
 To design and implement a 6T SRAM (Static Random-Access Memory) cell using Cadence EDA tools, simulate its functionality, and analyze key performance parameters such as read/write operations, power consumption, and stability to understand its behavior in memory design.
@@ -111,7 +111,8 @@ ii)	Create Schematic Cell view.
 
 ![Screenshot 2024-11-12 125609](https://github.com/user-attachments/assets/9fb20c5a-238b-485b-9683-fcef4c284f8a)
 ![Screenshot 2024-11-12 125544](https://github.com/user-attachments/assets/55aef242-18ca-4fd2-86cb-7dde4fb8d07f)
-![Uploading Screenshot 2024-11-17 225344.png…]()
+![Screenshot 2024-11-17 225344](https://github.com/user-attachments/assets/cd779eea-bdd0-44b7-ac84-35e3c81301b7)
+
 
 
 
